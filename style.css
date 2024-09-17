@@ -90,6 +90,13 @@ body {
     border: none;
     border-radius: 50px;
     border-top-left-radius: 0;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.btn:hover {
+    background: #1011;
+    color: #000;
+    border: 1px solid #000;
 }
 .content-right {
     height: 100%;
